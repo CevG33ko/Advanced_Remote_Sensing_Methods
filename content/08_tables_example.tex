@@ -1,0 +1,49 @@
+\chapter{tables/tabluar}
+\section{simpletable}
+
+\begin{labeling}[ --]{c}
+	\item[l] links
+	\item[r] rechts
+	\item[c] center
+\end{labeling}
+
+Location
+
+\begin{labeling}[ --]{b}
+	\item[h] here
+	\item[t] top
+	\item[b] buttom
+\end{labeling}
+
+
+\begin{table}[h]
+	\captionabove{Caption above \textendash{} here}
+	\begin{tabular}{l|lll}
+		Dies & ist & ein & Beispiel.\\
+		\hline
+		Bitte & lassen & Sie & den \\
+		Inhalt & dieser & Tabelle & unbeachtet.
+	\end{tabular}
+\end{table}
+
+\begin{table}[t]
+	\captionabove{Caption above \textendash{} top}
+	\begin{tabular}{l|lll}
+		Dies & ist & ein & Beispiel.\\
+		\hline
+		Bitte & lassen & Sie & den \\
+		Inhalt & dieser & Tabelle & unbeachtet.
+	\end{tabular}
+\end{table}
+
+\begin{table}[b]
+	\begin{tabular}{rcrr}
+		Dies & ist & ein & Beispiel.\\
+		\hline
+		Bitte & lassen & Sie & den \\
+		Inhalt & dieser & Tabelle & unbeachtet.
+	\end{tabular}
+	\captionbelow{Caption below \textendash{} buttom}
+\end{table}
+
+Text after all tables

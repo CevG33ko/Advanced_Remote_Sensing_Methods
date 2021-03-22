@@ -1,0 +1,113 @@
+\chapter{Math}
+
+\begin{eqnarray*}
+	f(x) = \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+	\textstyle f(x) = \textstyle \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+	\scriptstyle f(x) = \scriptstyle \sum_{i=0}^{n} \frac{a_i}{1+x} \\
+	\scriptscriptstyle f(x) = \scriptscriptstyle \sum_{i=0}^{n} \frac{a_i}{1+x}
+\end{eqnarray*}
+
+\section{Inline math}
+In this line is a beautiful formular $e^{i\pi} + 1 = 0$ \par
+This is also inline but special \[e^{i\pi} + 1 = 0\] Do you see it?
+
+\section{Formulars}
+For not only mention a formular, you should use that format:
+
+\begin{equation}
+E=mc^2
+\end{equation}
+
+\section{Multiline}
+
+For long equations
+\begin{multline}
+p(x) = 3x^6 + 14x^5y \\+ 590x^4y^2 + 19x^3y^3
+- 12x^2y^4 - 12xy^5 + 2y^6 \\- a^3b^3 + a^3 - b^6
+\end{multline}
+
+
+Or multipart
+\begin{equation}
+\begin{split}
+A & = \frac{\pi r^2}{2} \\
+& = \frac{1}{2} \pi r^2
+\end{split}
+\end{equation}
+
+Or on another way:
+
+
+\begin{align}
+x&=y           &  w &=z              &  a&=b+c\\
+2x&=-y         &  3w&=\frac{1}{2}z   &  a&=b\\
+-4 + 5x&=2+y   &  w+2&=-1+w          &  ab&=cb
+\end{align}
+
+Without alignment:
+
+\begin{gather} 
+2x - 5y =  8 \\ 
+3x^2 + 9y =  3a + c
+\end{gather}
+
+\section{spacing}
+\begin{align*}
+f(x) =& x^2\! +3x\! +2 \\
+f(x) =& x^2+3x+2 \\
+f(x) =& x^2\, +3x\, +2 \\
+f(x) =& x^2\: +3x\: +2 \\
+f(x) =& x^2\; +3x\; +2 \\
+f(x) =& x^2\ +3x\ +2 \\
+f(x) =& x^2\quad +3x\quad +2 \\
+f(x) =& x^2\qquad +3x\qquad +2
+\end{align*}
+
+\section{Brackets}
+
+\ldots need to be equalized even with invisible brackets
+
+\begin{align}
+y  = 1 + & \left(  \frac{1}{x} + \frac{1}{x^2} + \frac{1}{x^3} + \ldots \right. \\
+& \quad \left. + \frac{1}{x^{n-1}} + \frac{1}{x^n} \right)	
+\end{align}
+
+\section{Units}
+\SI{24,38176541e4}{m.Pa} \\
+\num{24,38176541e4} \\
+\si{\kilo\gram\metre\per\square\second} \\
+\si{\gram\per\cubic\centi\metre}        \\
+\si{\square\volt\cubic\lumen\per\farad} \\
+\si{\metre\squared\per\gray\cubic\lux}  \\
+\si{\henry\second} \\
+\SI[mode=text]{1.23}{J.mol^{-1}.K^{-1}}          \\
+\SI{.23e7}{\candela}                              \\
+\SI[per-mode=symbol]{1.99}[\$]{\per\kilogram}    \\
+\SI[per-mode=fraction]{1,345}{\coulomb\per\mole} \\
+\si[unit-color=blue]{\highlight{red}\kilogram\metre\per\second}
+$p=\SI{24,381}{MPa}$
+
+\section{list/Range}
+\numlist{10;30;50;70} \\
+\numrange{10}{30}\\
+\SIlist{10;30;45}{\metre}\\
+\SIrange{10}{30}{\metre} \\
+\num[negative-color = red]{-15673}
+
+\section{Angle}
+\ang{10}    \\
+\ang{12.3}  \\
+\ang{4,5}   \\
+\ang{1;2;3} \\
+\ang{;;1}   \\
+\ang{+10;;} \\
+\ang{-0;1;}
+
+
+
+
+
+
+
+
+

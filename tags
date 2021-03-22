@@ -1,0 +1,263 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+1RQzvPjgxGfRGnCSELehSnE4RKd	.idea/workspace.xml	/^  <component name="ProjectId" id="1RQzvPjgxGfRGnCSELehSnE4RKd" \/>$/;"	i
+7ac18441-2fa2-4334-97ed-84a9b27af329	.idea/workspace.xml	/^      <changelist id="7ac18441-2fa2-4334-97ed-84a9b27af329" name="Default Changelist" comment=""/;"	i
+7ac18441-2fa2-4334-97ed-84a9b27af329	.idea/workspace.xml	/^    <list default="true" id="7ac18441-2fa2-4334-97ed-84a9b27af329" name="Default Changelist" com/;"	i
+<Plug>(GitGutterNextHunk)	vimSession.vim	/^nnoremap <silent> <expr> <Plug>(GitGutterNextHunk) &diff ? ']c' : ":\\execute v:count1 . 'GitG/;"	m
+<Plug>(GitGutterPrevHunk)	vimSession.vim	/^nnoremap <silent> <expr> <Plug>(GitGutterPrevHunk) &diff ? '[c' : ":\\execute v:count1 . 'GitG/;"	m
+<Plug>(GitGutterPreviewHunk)	vimSession.vim	/^nnoremap <silent> <Plug>(GitGutterPreviewHunk) :GitGutterPreviewHunk$/;"	m
+<Plug>(GitGutterStageHunk)	vimSession.vim	/^nnoremap <silent> <Plug>(GitGutterStageHunk) :GitGutterStageHunk$/;"	m
+<Plug>(GitGutterStageHunk)	vimSession.vim	/^xnoremap <silent> <Plug>(GitGutterStageHunk) :GitGutterStageHunk$/;"	m
+<Plug>(GitGutterTextObjectInnerPending)	vimSession.vim	/^onoremap <silent> <Plug>(GitGutterTextObjectInnerPending) :call gitgutter#hunk#text_object(1)$/;"	m
+<Plug>(GitGutterTextObjectInnerVisual)	vimSession.vim	/^xnoremap <silent> <Plug>(GitGutterTextObjectInnerVisual) :call gitgutter#hunk#text_object(1)$/;"	m
+<Plug>(GitGutterTextObjectOuterPending)	vimSession.vim	/^onoremap <silent> <Plug>(GitGutterTextObjectOuterPending) :call gitgutter#hunk#text_object(0)$/;"	m
+<Plug>(GitGutterTextObjectOuterVisual)	vimSession.vim	/^xnoremap <silent> <Plug>(GitGutterTextObjectOuterVisual) :call gitgutter#hunk#text_object(0)$/;"	m
+<Plug>(GitGutterUndoHunk)	vimSession.vim	/^nnoremap <silent> <Plug>(GitGutterUndoHunk) :GitGutterUndoHunk$/;"	m
+<Plug>(fzf-complete-buffer-line)	vimSession.vim	/^inoremap <expr> <Plug>(fzf-complete-buffer-line) fzf#vim#complete#buffer_line()$/;"	m
+<Plug>(fzf-complete-file)	vimSession.vim	/^inoremap <expr> <Plug>(fzf-complete-file) fzf#vim#complete#path("find . -path '*\/\\.*' -prune -/;"	m
+<Plug>(fzf-complete-file-ag)	vimSession.vim	/^inoremap <expr> <Plug>(fzf-complete-file-ag) fzf#vim#complete#path('ag -l -g ""')$/;"	m
+<Plug>(fzf-complete-line)	vimSession.vim	/^inoremap <expr> <Plug>(fzf-complete-line) fzf#vim#complete#line()$/;"	m
+<Plug>(fzf-complete-path)	vimSession.vim	/^inoremap <expr> <Plug>(fzf-complete-path) fzf#vim#complete#path("find . -path '*\/\\.*' -prune -/;"	m
+<Plug>(fzf-complete-word)	vimSession.vim	/^inoremap <expr> <Plug>(fzf-complete-word) fzf#vim#complete#word()$/;"	m
+<Plug>(fzf-maps-i)	vimSession.vim	/^inoremap <silent> <Plug>(fzf-maps-i) :call fzf#vim#maps('i', 0)$/;"	m
+<Plug>(fzf-maps-n)	vimSession.vim	/^nnoremap <silent> <Plug>(fzf-maps-n) :call fzf#vim#maps('n', 0)$/;"	m
+<Plug>(fzf-maps-o)	vimSession.vim	/^onoremap <silent> <Plug>(fzf-maps-o) :call fzf#vim#maps('o', 0)$/;"	m
+<Plug>(fzf-maps-x)	vimSession.vim	/^xnoremap <silent> <Plug>(fzf-maps-x) :call fzf#vim#maps('x', 0)$/;"	m
+<Plug>GitGutterNextHunk	vimSession.vim	/^nnoremap <silent> <expr> <Plug>GitGutterNextHunk &diff ? ']c' : ":\\call gitgutter#utility#war/;"	m
+<Plug>GitGutterPrevHunk	vimSession.vim	/^nnoremap <silent> <expr> <Plug>GitGutterPrevHunk &diff ? '[c' : ":\\call gitgutter#utility#war/;"	m
+<Plug>GitGutterPreviewHunk	vimSession.vim	/^nnoremap <silent> <Plug>GitGutterPreviewHunk :call gitgutter#utility#warn('please change your ma/;"	m
+<Plug>GitGutterStageHunk	vimSession.vim	/^nnoremap <silent> <Plug>GitGutterStageHunk :call gitgutter#utility#warn('please change your map /;"	m
+<Plug>GitGutterStageHunk	vimSession.vim	/^xnoremap <silent> <Plug>GitGutterStageHunk :call gitgutter#utility#warn('please change your map /;"	m
+<Plug>GitGutterUndoHunk	vimSession.vim	/^nnoremap <silent> <Plug>GitGutterUndoHunk :call gitgutter#utility#warn('please change your map /;"	m
+<Plug>NERDCommenterAlignBoth	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment("n", "AlignBoth")$/;"	m
+<Plug>NERDCommenterAlignBoth	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment("x", "AlignBoth")$/;"	m
+<Plug>NERDCommenterAlignLeft	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment("n", "AlignLeft")$/;"	m
+<Plug>NERDCommenterAlignLeft	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment("x", "AlignLeft")$/;"	m
+<Plug>NERDCommenterAppend	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterAppend :call NERDComment("n", "Append")$/;"	m
+<Plug>NERDCommenterComment	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterComment :call NERDComment("n", "Comment")$/;"	m
+<Plug>NERDCommenterComment	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterComment :call NERDComment("x", "Comment")$/;"	m
+<Plug>NERDCommenterInsert	vimSession.vim	/^inoremap <silent> <Plug>NERDCommenterInsert  <BS>:call NERDComment('i', 'insert')$/;"	m
+<Plug>NERDCommenterInvert	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment("n", "Invert")$/;"	m
+<Plug>NERDCommenterInvert	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment("x", "Invert")$/;"	m
+<Plug>NERDCommenterMinimal	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment("n", "Minimal")$/;"	m
+<Plug>NERDCommenterMinimal	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment("x", "Minimal")$/;"	m
+<Plug>NERDCommenterNested	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterNested :call NERDComment("n", "Nested")$/;"	m
+<Plug>NERDCommenterNested	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterNested :call NERDComment("x", "Nested")$/;"	m
+<Plug>NERDCommenterSexy	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment("n", "Sexy")$/;"	m
+<Plug>NERDCommenterSexy	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment("x", "Sexy")$/;"	m
+<Plug>NERDCommenterToEOL	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterToEOL :call NERDComment("n", "ToEOL")$/;"	m
+<Plug>NERDCommenterToggle	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment("n", "Toggle")$/;"	m
+<Plug>NERDCommenterToggle	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment("x", "Toggle")$/;"	m
+<Plug>NERDCommenterUncomment	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment("n", "Uncomment")$/;"	m
+<Plug>NERDCommenterUncomment	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment("x", "Uncomment")$/;"	m
+<Plug>NERDCommenterYank	vimSession.vim	/^nnoremap <silent> <Plug>NERDCommenterYank :call NERDComment("n", "Yank")$/;"	m
+<Plug>NERDCommenterYank	vimSession.vim	/^xnoremap <silent> <Plug>NERDCommenterYank :call NERDComment("x", "Yank")$/;"	m
+<Plug>NetrwBrowseX	vimSession.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX/;"	m
+<Plug>NetrwBrowseXVis	vimSession.vim	/^vnoremap <silent> <Plug>NetrwBrowseXVis :call netrw#BrowseXVis()$/;"	m
+<SNR>136_:	vimSession.vim	/^nnoremap <SNR>136_: :=v:count ? v:count : ''$/;"	m
+Angle	content/11_math_example.tex	/^\\section{Angle}$/;"	s	chapter:Math
+Appendix chapter	content/99_appendix_example.tex	/^\\chapter{Appendix chapter}$/;"	c
+Bib	content/13_bib_example.tex	/^\\chapter{Bib}$/;"	c
+Bibtex file	README.md	/^## Bibtex file$/;"	s
+Brackets	content/11_math_example.tex	/^\\section{Brackets}$/;"	s	chapter:Math
+Build Status	README.md	/^# Build Status$/;"	c
+Content	README.md	/^## Content$/;"	s
+Default	.idea/workspace.xml	/^    <task active="true" id="Default" summary="Default task">$/;"	i
+Draw diagrams	content/14_draw_diagrams_example.tex	/^\\chapter{Draw diagrams}$/;"	c
+Footnote examples	content/05_footnote_example.tex	/^\\chapter{Footnote examples}$/;"	c
+Formulars	content/11_math_example.tex	/^\\section{Formulars}$/;"	s	chapter:Math
+GNUPlot	content/14_draw_diagrams_example.tex	/^\\section{GNUPlot}$/;"	s	chapter:Draw diagrams
+HelloWorld	sourcecode/javaExampleCode/HelloWorld.java	/^public class HelloWorld $/;"	c
+Images	README.md	/^## Images$/;"	s
+Inline math	content/11_math_example.tex	/^\\section{Inline math}$/;"	s	chapter:Math
+Itemized	content/07_lists_example.tex	/^\\section{Itemized}$/;"	s	chapter:Lists
+LOCAL-00001	.idea/workspace.xml	/^    <task id="LOCAL-00001" summary="add acronym package, page and example">$/;"	i
+Lists	content/07_lists_example.tex	/^\\chapter{Lists}$/;"	c
+Math	content/11_math_example.tex	/^\\chapter{Math}$/;"	c
+Multiline	content/11_math_example.tex	/^\\section{Multiline}$/;"	s	chapter:Math
+My template for LaTeX documents.	README.md	/^# My template for LaTeX documents. $/;"	c
+Preamble	README.md	/^## Preamble$/;"	s
+Quotation	content/07_lists_example.tex	/^\\section{Quotation}$/;"	s	chapter:Lists
+Quote	content/07_lists_example.tex	/^\\section{Quote}$/;"	s	chapter:Lists
+SessionLoad	vimSession.vim	/^let SessionLoad = 1$/;"	v
+Sourcecode	README.md	/^## Sourcecode$/;"	s
+Sourcecode	content/12_sourcecode_example.tex	/^\\chapter{Sourcecode}$/;"	c
+Structure	README.md	/^# Structure$/;"	c
+Text example Capter2	content/04_text_example.tex	/^\\chapter{Text example Capter2}$/;"	c
+Text example section1	content/04_text_example.tex	/^\\section{Text example section1}$/;"	s	chapter:short title: text example Chapter1
+Text example section2	content/04_text_example.tex	/^\\section{Text example section2}$/;"	s	chapter:Text example Capter2
+Text example subsection1	content/04_text_example.tex	/^\\subsection{Text example subsection1}$/;"	u	section:short title: text example Chapter1""Text example section1
+Text example subsection2	content/04_text_example.tex	/^\\subsection{Text example subsection2}$/;"	u	section:Text example Capter2""Text example section2
+Text example subsubsection1	content/04_text_example.tex	/^\\subsubsection{Text example subsubsection1}$/;"	b	subsection:short title: text example Chapter1""Text example section1""Text example subsection1
+Text example subsubsection2	content/04_text_example.tex	/^\\subsubsection{Text example subsubsection2}$/;"	b	subsection:Text example Capter2""Text example section2""Text example subsection2
+Units	content/11_math_example.tex	/^\\section{Units}$/;"	s	chapter:Math
+Verse	content/07_lists_example.tex	/^\\section{Verse}$/;"	s	chapter:Lists
+Vim	README.md	/^# Vim$/;"	c
+[c	vimSession.vim	/^nmap <buffer> [c <Plug>(GitGutterPrevHunk)$/;"	m
+\\c$	vimSession.vim	/^nmap \\c$ <Plug>NERDCommenterToEOL$/;"	m
+\\cA	vimSession.vim	/^nmap \\cA <Plug>NERDCommenterAppend$/;"	m
+\\c\x16	vimSession.vim	/^nmap \\c  <Plug>NERDCommenterToggle$/;"	m
+\\c\x16	vimSession.vim	/^xmap \\c  <Plug>NERDCommenterToggle$/;"	m
+\\ca	vimSession.vim	/^nmap \\ca <Plug>NERDCommenterAltDelims$/;"	m
+\\cb	vimSession.vim	/^nmap \\cb <Plug>NERDCommenterAlignBoth$/;"	m
+\\cb	vimSession.vim	/^xmap \\cb <Plug>NERDCommenterAlignBoth$/;"	m
+\\cc	vimSession.vim	/^nmap \\cc <Plug>NERDCommenterComment$/;"	m
+\\cc	vimSession.vim	/^xmap \\cc <Plug>NERDCommenterComment$/;"	m
+\\ci	vimSession.vim	/^nmap \\ci <Plug>NERDCommenterInvert$/;"	m
+\\ci	vimSession.vim	/^xmap \\ci <Plug>NERDCommenterInvert$/;"	m
+\\cl	vimSession.vim	/^nmap \\cl <Plug>NERDCommenterAlignLeft$/;"	m
+\\cl	vimSession.vim	/^xmap \\cl <Plug>NERDCommenterAlignLeft$/;"	m
+\\cm	vimSession.vim	/^nmap \\cm <Plug>NERDCommenterMinimal$/;"	m
+\\cm	vimSession.vim	/^xmap \\cm <Plug>NERDCommenterMinimal$/;"	m
+\\cn	vimSession.vim	/^nmap \\cn <Plug>NERDCommenterNested$/;"	m
+\\cn	vimSession.vim	/^xmap \\cn <Plug>NERDCommenterNested$/;"	m
+\\cs	vimSession.vim	/^nmap \\cs <Plug>NERDCommenterSexy$/;"	m
+\\cs	vimSession.vim	/^xmap \\cs <Plug>NERDCommenterSexy$/;"	m
+\\cu	vimSession.vim	/^nmap \\cu <Plug>NERDCommenterUncomment$/;"	m
+\\cu	vimSession.vim	/^xmap \\cu <Plug>NERDCommenterUncomment$/;"	m
+\\cy	vimSession.vim	/^nmap \\cy <Plug>NERDCommenterYank$/;"	m
+\\cy	vimSession.vim	/^xmap \\cy <Plug>NERDCommenterYank$/;"	m
+\\f	vimSession.vim	/^map \\f :Ranger$/;"	m
+\\hp	vimSession.vim	/^nmap <buffer> \\hp <Plug>(GitGutterPreviewHunk)$/;"	m
+\\hs	vimSession.vim	/^nmap <buffer> \\hs <Plug>(GitGutterStageHunk)$/;"	m
+\\hs	vimSession.vim	/^xmap <buffer> \\hs <Plug>(GitGutterStageHunk)$/;"	m
+\\hu	vimSession.vim	/^nmap <buffer> \\hu <Plug>(GitGutterUndoHunk)$/;"	m
+]c	vimSession.vim	/^nmap <buffer> ]c <Plug>(GitGutterNextHunk)$/;"	m
+ac	vimSession.vim	/^omap <buffer> ac <Plug>(GitGutterTextObjectOuterPending)$/;"	m
+ac	vimSession.vim	/^xmap <buffer> ac <Plug>(GitGutterTextObjectOuterVisual)$/;"	m
+adams2009hitchhikers	bib/literature.bib	/^@Book{adams2009hitchhikers,$/;"	b
+appendix section	content/99_appendix_example.tex	/^\\section{appendix section}$/;"	s	chapter:Appendix chapter
+bordernotes	content/10_bordernotes_example.tex	/^\\chapter{bordernotes}$/;"	c
+cc	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://creativecommons.org/ns#
+content/01_title	00_master.tex	/^    \\include{content\/01_title}$/;"	i
+content/02_abstract	00_master.tex	/^    \\include{content\/02_abstract}$/;"	i
+content/03_tablesOfContent	00_master.tex	/^    \\include{content\/03_tablesOfContent}$/;"	i
+content/04_text_example	00_master.tex	/^    \\include{content\/04_text_example}$/;"	i
+content/05_footnote_example	00_master.tex	/^    \\include{content\/05_footnote_example}$/;"	i
+content/06_quotes_example	00_master.tex	/^    \\include{content\/06_quotes_example}$/;"	i
+content/07_lists_example	00_master.tex	/^    \\include{content\/07_lists_example}$/;"	i
+content/08_tables_example	00_master.tex	/^    \\include{content\/08_tables_example}$/;"	i
+content/09_images_example	00_master.tex	/^    \\include{content\/09_images_example}$/;"	i
+content/10_bordernotes_example	00_master.tex	/^    \\include{content\/10_bordernotes_example}$/;"	i
+content/11_math_example	00_master.tex	/^    \\include{content\/11_math_example}$/;"	i
+content/12_sourcecode_example	00_master.tex	/^    \\include{content\/12_sourcecode_example}$/;"	i
+content/13_bib_example	00_master.tex	/^    \\include{content\/13_bib_example}$/;"	i
+content/14_draw_diagrams_example	00_master.tex	/^    \\include{content\/14_draw_diagrams_example}$/;"	i
+content/98_acronym	00_master.tex	/^    \\include{content\/98_acronym}$/;"	i
+content/99_appendix_example	00_master.tex	/^    \\include{content\/99_appendix_example}$/;"	i
+dc	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://purl.org/dc/elements/1.1/
+defs4445	img/Hochschule_Muenchen_logo.svg	/^     id="defs4445">$/;"	i
+description	content/07_lists_example.tex	/^\\section{description}$/;"	s	chapter:Lists
+enumerate	content/07_lists_example.tex	/^\\section{enumerate}$/;"	s	chapter:Lists
+feColorMatrix4192	img/Hochschule_Muenchen_logo.svg	/^         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 " \/>$/;"	i
+feGaussianBlur4190	img/Hochschule_Muenchen_logo.svg	/^         result="blur" \/>$/;"	i
+feMerge4196	img/Hochschule_Muenchen_logo.svg	/^         id="feMerge4196">$/;"	i
+feMergeNode4198	img/Hochschule_Muenchen_logo.svg	/^           in="offsetBlur" \/>$/;"	i
+feMergeNode4200	img/Hochschule_Muenchen_logo.svg	/^           in="SourceGraphic" \/>$/;"	i
+feOffset4194	img/Hochschule_Muenchen_logo.svg	/^         result="offsetBlur" \/>$/;"	i
+filter4188	img/Hochschule_Muenchen_logo.svg	/^       id="filter4188">$/;"	d
+filter4188	img/Hochschule_Muenchen_logo.svg	/^       id="filter4188">$/;"	i
+footnote mulitiple use	content/05_footnote_example.tex	/^\\section[footnote mulitiple use]{one footnote for multiple usages}$/;"	s	chapter:Footnote examples
+gx	vimSession.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+gx	vimSession.vim	/^vmap gx <Plug>NetrwBrowseXVis$/;"	m
+ic	vimSession.vim	/^omap <buffer> ic <Plug>(GitGutterTextObjectInnerPending)$/;"	m
+ic	vimSession.vim	/^xmap <buffer> ic <Plug>(GitGutterTextObjectInnerVisual)$/;"	m
+image wraped with text	content/09_images_example.tex	/^\\section{image wraped with text}$/;"	s	chapter:images
+images	content/09_images_example.tex	/^\\chapter{images}$/;"	c
+inline graphic	content/14_draw_diagrams_example.tex	/^\\section{inline graphic}$/;"	s	chapter:Draw diagrams
+labeling	content/07_lists_example.tex	/^\\section{labeling}$/;"	s	chapter:Lists
+layer1	img/Hochschule_Muenchen_logo.svg	/^     id="layer1">$/;"	i
+linearGradient3766	img/Hochschule_Muenchen_logo.svg	/^       id="linearGradient3766">$/;"	d
+linearGradient3766	img/Hochschule_Muenchen_logo.svg	/^       id="linearGradient3766">$/;"	i
+linearGradient3772	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	d
+linearGradient3772	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	i
+linearGradient4582	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	d
+linearGradient4582	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	i
+list/Range	content/11_math_example.tex	/^\\section{list\/Range}$/;"	s	chapter:Math
+long smart quote	content/06_quotes_example.tex	/^\\section{long smart quote}$/;"	s	chapter:smart Quote
+long smart quote with author	content/06_quotes_example.tex	/^	\\section{long smart quote with author}$/;"	s	chapter:smart Quote
+main	sourcecode/javaExampleCode/HelloWorld.java	/^	public static void main (String[] args)$/;"	m	class:HelloWorld
+metadata4448	img/Hochschule_Muenchen_logo.svg	/^     id="metadata4448">$/;"	i
+multi footnote	content/05_footnote_example.tex	/^\\section[multi footnote]{multiple footnote}$/;"	s	chapter:Footnote examples
+not so simple	content/14_draw_diagrams_example.tex	/^\\section{not so simple}$/;"	s	chapter:Draw diagrams
+ns29cd9df70101	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/2000/svg
+path3162	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3165	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3167	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3169	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3171	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3173	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3175	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3177	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3179	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3181	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3183	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3185	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3187	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3189	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3191	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3200	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3202	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3204	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3206	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3208	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3210	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3213	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3215	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3217	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3219	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3221	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3223	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3225	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3227	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3229	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3231	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3233	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3235	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3237	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3240	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3242	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3244	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3246	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3248	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3250	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3252	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3254	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3256	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3258	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+preamble/documentInfos	00_master.tex	/^\\include{preamble\/documentInfos}$/;"	i
+preamble/hyphenation	00_master.tex	/^\\include{preamble\/hyphenation}$/;"	i
+preamble/packages	00_master.tex	/^\\include{preamble\/packages}$/;"	i
+rdf	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/1999/02/22-rdf-syntax-ns#
+rect2996	img/Hochschule_Muenchen_logo.svg	/^       style="fill:url(#linearGradient4582);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:/;"	i
+s:cpo_save	vimSession.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	vimSession.vim	/^let s:l = 5 - ((4 * winheight(0) + 25) \/ 50)$/;"	v
+s:so_save	vimSession.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	vimSession.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	vimSession.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+short smart quote	content/06_quotes_example.tex	/^\\section{short smart quote}$/;"	s	chapter:smart Quote
+short title: text example Chapter1	content/04_text_example.tex	/^\\chapter[short title: text example Chapter1]{Text example Chapter1}$/;"	c
+simple	content/14_draw_diagrams_example.tex	/^\\section{simple}$/;"	s	chapter:Draw diagrams
+simple Image placement	content/09_images_example.tex	/^\\section{simple Image placement}$/;"	s	chapter:images
+simple footnote	content/05_footnote_example.tex	/^\\section{simple footnote}$/;"	s	chapter:Footnote examples
+simpletable	content/08_tables_example.tex	/^\\section{simpletable}$/;"	s	chapter:tables/tabluar
+smart Quote	content/06_quotes_example.tex	/^\\chapter[smart Quote]{smart Quotes}$/;"	c
+spacing	content/11_math_example.tex	/^\\section{spacing}$/;"	s	chapter:Math
+stop3768	img/Hochschule_Muenchen_logo.svg	/^         offset="0" \/>$/;"	i
+stop3770	img/Hochschule_Muenchen_logo.svg	/^         offset="1" \/>$/;"	i
+svg	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/2000/svg
+svg4443	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	i
+tables/tabluar	content/08_tables_example.tex	/^\\chapter{tables\/tabluar}$/;"	c
+text5339	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:115.53270721px;font-style:normal;font-weight:normal;line-height:125%;let/;"	i
+text5343	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:71.81745911px;font-style:normal;font-weight:normal;line-height:125%;lett/;"	i
+text5343-7	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:73.12447357px;font-style:normal;font-weight:normal;line-height:125%;lett/;"	i
+text5351	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:154.42764282px;font-style:normal;font-weight:normal;line-height:125%;let/;"	i
+text5351-4	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:181.64437866px;font-style:normal;font-weight:normal;line-height:125%;let/;"	i
+thirdExampleFootnote	content/05_footnote_example.tex	/^Lorem ipsum\\footnote{This footnote has multiple usages \\label{thirdExampleFootnote}} dolor sit/;"	l
+xlink	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/1999/xlink

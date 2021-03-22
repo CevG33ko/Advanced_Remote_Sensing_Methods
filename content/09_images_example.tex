@@ -1,0 +1,30 @@
+\chapter{images}
+\section{simple Image placement}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.25,angle=45,trim={5cm 1.5cm 3cm 0},clip]{starwars}
+	\caption{scale}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=2cm,width=10cm]{starwars}
+	\caption{scale}
+\end{figure}
+
+\section{image wraped with text}
+\begin{wrapfigure}{r}{0.3\textwidth} %this figure will be at the right
+	\centering
+	\includegraphics[width=0.3\textwidth]{starwars}
+	\caption{wraped on the left}
+\end{wrapfigure}
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem \par ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+
+\begin{wrapfigure}{l}{0.5\textwidth} %this figure will be at the left
+	\centering
+	\includegraphics[width=0.5\textwidth]{starwars}
+	\caption{wrapped on the right}
+\end{wrapfigure}
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
