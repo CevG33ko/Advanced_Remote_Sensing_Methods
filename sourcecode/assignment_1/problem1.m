@@ -6,9 +6,9 @@ accuracy_table = [ 70 1 3 6;
                    3 64 12 8;
                    1 9 19 8;
                    5 3 4 34];
-               
-sum_classification = sum(accuracy_table,2); % the rows
-sum_test_areas = sum(accuracy_table); % the columns
+
+sum_classification = sum(accuracy_table,2) % the rows
+sum_test_areas = sum(accuracy_table) % the columns
 
 %% Calculate basic values
 TP = diag(accuracy_table);
@@ -19,7 +19,7 @@ FN = sum_test_areas' - diag(accuracy_table);
 FP_rate = FP./sum_classification;
 TP_rate = TP./(FP+FN);
 
-sum_pixels = sum(sum_classification);
+sum_pixels = sum(sum_classification)
 
 failure_1 = sum_classification - TP;
 failure_2 = sum_test_areas - TP';
@@ -48,13 +48,13 @@ for i = 1:size(recall,1)
     disp([' Ommision: ' , num2str(ommision(i)*100), ' Commision: ', num2str(commision(i) * 100)]);
 end
     disp('')
-    disp(['B: ', num2str(accuracy_table(1,2))])
+    disp(['B: ', num2str(accuracy_table(2,1))])
     disp('')
     disp(['C: ', num2str(FN(3))])
     disp('')
     disp(['D: ', num2str(FN(4))])
     disp('')
-    disp(['E: ', num2str(FP(4))])
+    disp(['E: ', num2str(FP(2))])
     disp('')
     disp(['D: (for firs)'])
     disp(['False positive rate: ', num2str(FP_rate(3)*100), ' True positive rate: ', num2str(TP_rate(3)*100)]);
