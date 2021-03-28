@@ -23,9 +23,13 @@ spruces = normcdf(-6:0.1:6, 2.5, 1);
 number_of_values = size(beeches, 1);
 temp_ones = ones(1, number_of_values);
 
-TP = temp_ones - spruces
-FP = temp_ones - beeches
+TP = temp_ones - spruces;
+FP = temp_ones - beeches;
 
 plot(FP, TP)
 hold on
 plot(0:0.1:1, 0:0.1:1)
+
+title('ROC-Curve')
+xlabel('False Positive Rate [%]') 
+ylabel('True Positive Rate [%]') 
