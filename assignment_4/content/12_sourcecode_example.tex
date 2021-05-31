@@ -1,0 +1,38 @@
+\chapter{Sourcecode}
+
+
+\begin{lstlisting}
+#include <stdio.h>
+#define N 10
+/* Block
+ * comment */
+
+int main()
+{
+	int i;
+	
+	// Line Comment
+	puts("Hello world!");
+	
+	for (i = 0; i < N; i++)
+	{
+		puts("LaTeX is also great for programmers!");
+	}
+
+	return 0;
+}
+\end{lstlisting}
+
+\lstinputlisting[caption=HelloWorld.java, language=java, label=javaHelloWorld]{sourcecode/javaExampleCode/HelloWorld.java}
+
+You can also create a reference~\ref{javaHelloWorld}.\\
+
+You can use just some single lines of a file:
+
+\lstinputlisting[%
+	caption=print java, 
+	language=java, 
+	label=print java, 
+	firstline=7, 
+	lastline=7]
+	{sourcecode/javaExampleCode/HelloWorld.java}
