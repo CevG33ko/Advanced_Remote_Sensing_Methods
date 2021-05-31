@@ -23,3 +23,7 @@ R2(1:3) = increment.*R2(4);
 %Calculate absolute coordinates
 R1(1:3) = R1(1:3)+A(1:3)
 R2(1:3) = R2(1:3)+A(1:3)
+
+%% soll
+% 9 172.10
+% 8 182.66

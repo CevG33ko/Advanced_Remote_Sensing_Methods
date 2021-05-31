@@ -2,10 +2,8 @@
 %% Init Values
 % Spruce Beech Fir Dead_tree
 categories = ["Spruce", "Beech", "Fir", "Dead Tree"];
-accuracy_table = [ 70 1 3 6;
-                   3 64 12 8;
-                   1 9 19 8;
-                   5 3 4 34];
+accuracy_table = [ 18 6;
+                   0 13];
 
 sum_classification = sum(accuracy_table,2) % the rows
 sum_test_areas = sum(accuracy_table) % the columns
@@ -50,12 +48,12 @@ end
     disp('')
     disp(['B: ', num2str(accuracy_table(2,1))])
     disp('')
-    disp(['C: ', num2str(FN(3))])
-    disp('')
-    disp(['D: ', num2str(FN(4))])
-    disp('')
-    disp(['E: ', num2str(FP(2))])
-    disp('')
-    disp(['D: (for firs)'])
-    disp(['False positive rate: ', num2str(FP_rate(3)*100), ' True positive rate: ', num2str(TP_rate(3)*100)]);
+    % disp(['C: ', num2str(FN(3))])
+    % disp('')
+    % disp(['D: ', num2str(FN(4))])
+    % disp('')
+    % disp(['E: ', num2str(FP(2))])
+    % disp('')
+    % disp(['D: (for firs)'])
+    % disp(['False positive rate: ', num2str(FP_rate(3)*100), ' True positive rate: ', num2str(TP_rate(3)*100)]);
 

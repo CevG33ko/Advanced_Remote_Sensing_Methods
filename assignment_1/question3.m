@@ -7,11 +7,11 @@ p = 0.97; % propability of outlier free consensus set
 
 %% Number of iterations
 
-n =  log(1 - p)/log(1 - (1-epsilon)^s);
+n =  log10(1 - p)/log10(1 - (1-epsilon)^s);
 
 %% calculate the size of consensus set
 
-S = (1-epsilon) * n;
+S = (1-epsilon) * N; %N = anzahl aller Messungen
 
 %% print
 
