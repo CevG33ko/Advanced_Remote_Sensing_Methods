@@ -1,0 +1,154 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/worldpotato/repos/LaTeX-Template/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+Angle	content/11_math_example.tex	/^\\section{Angle}$/;"	s	chapter:Math
+Appendix chapter	content/99_appendix_example.tex	/^\\chapter{Appendix chapter}$/;"	c
+Bib	content/13_bib_example.tex	/^\\chapter{Bib}$/;"	c
+Bibtex file	README.md	/^## Bibtex file$/;"	s	chapter:Structure
+Brackets	content/11_math_example.tex	/^\\section{Brackets}$/;"	s	chapter:Math
+Build Status	README.md	/^# Build Status$/;"	c
+Content	README.md	/^## Content$/;"	s	chapter:Structure
+Draw diagrams	content/14_draw_diagrams_example.tex	/^\\chapter{Draw diagrams}$/;"	c
+Footnote examples	content/05_footnote_example.tex	/^\\chapter{Footnote examples}$/;"	c
+Formulars	content/11_math_example.tex	/^\\section{Formulars}$/;"	s	chapter:Math
+GNUPlot	content/14_draw_diagrams_example.tex	/^\\section{GNUPlot}$/;"	s	chapter:Draw diagrams
+HelloWorld	sourcecode/javaExampleCode/HelloWorld.java	/^public class HelloWorld $/;"	c
+Images	README.md	/^## Images$/;"	s	chapter:Structure
+Inline math	content/11_math_example.tex	/^\\section{Inline math}$/;"	s	chapter:Math
+Itemized	content/07_lists_example.tex	/^\\section{Itemized}$/;"	s	chapter:Lists
+Lists	content/07_lists_example.tex	/^\\chapter{Lists}$/;"	c
+Math	content/11_math_example.tex	/^\\chapter{Math}$/;"	c
+Multiline	content/11_math_example.tex	/^\\section{Multiline}$/;"	s	chapter:Math
+My template for LaTeX documents.	README.md	/^# My template for LaTeX documents. $/;"	c
+Preamble	README.md	/^## Preamble$/;"	s	chapter:Structure
+Quotation	content/07_lists_example.tex	/^\\section{Quotation}$/;"	s	chapter:Lists
+Quote	content/07_lists_example.tex	/^\\section{Quote}$/;"	s	chapter:Lists
+Sourcecode	README.md	/^## Sourcecode$/;"	s	chapter:Structure
+Sourcecode	content/12_sourcecode_example.tex	/^\\chapter{Sourcecode}$/;"	c
+Structure	README.md	/^# Structure$/;"	c
+Text example Capter2	content/04_text_example.tex	/^\\chapter{Text example Capter2}$/;"	c
+Text example section1	content/04_text_example.tex	/^\\section{Text example section1}$/;"	s	chapter:short title: text example Chapter1
+Text example section2	content/04_text_example.tex	/^\\section{Text example section2}$/;"	s	chapter:Text example Capter2
+Text example subsection1	content/04_text_example.tex	/^\\subsection{Text example subsection1}$/;"	u	section:short title: text example Chapter1""Text example section1
+Text example subsection2	content/04_text_example.tex	/^\\subsection{Text example subsection2}$/;"	u	section:Text example Capter2""Text example section2
+Text example subsubsection1	content/04_text_example.tex	/^\\subsubsection{Text example subsubsection1}$/;"	b	subsection:short title: text example Chapter1""Text example section1""Text example subsection1
+Text example subsubsection2	content/04_text_example.tex	/^\\subsubsection{Text example subsubsection2}$/;"	b	subsection:Text example Capter2""Text example section2""Text example subsection2
+Units	content/11_math_example.tex	/^\\section{Units}$/;"	s	chapter:Math
+Verse	content/07_lists_example.tex	/^\\section{Verse}$/;"	s	chapter:Lists
+Vim	README.md	/^# Vim$/;"	c
+\\myAuthor	preamble/documentInfos.tex	/^\\newcommand{\\myAuthor}{It's me, mario!}$/;"	C
+\\myFirstExaminer	preamble/documentInfos.tex	/^\\newcommand{\\myFirstExaminer}{Prof.\\ Dr.\\ med.\\ Dr.-Ing.\\ M.\\ Mustermann}$/;"	C
+\\mySecondExaminer	preamble/documentInfos.tex	/^\\newcommand{\\mySecondExaminer}{Prof.\\ Dr.-Ing.\\ F.\\ Musterfrau}$/;"	C
+\\mySubTitle	preamble/documentInfos.tex	/^\\newcommand{\\mySubTitle}{Look at my thesis, my thesis is amazing}$/;"	C
+\\myThesisType	preamble/documentInfos.tex	/^\\newcommand{\\myThesisType}{Thesis Type}$/;"	C
+\\myTitle	preamble/documentInfos.tex	/^\\newcommand{\\myTitle}{My awesome \\\\Title}$/;"	C
+adams2009hitchhikers	bib/literature.bib	/^@Book{adams2009hitchhikers,$/;"	b
+appendix section	content/99_appendix_example.tex	/^\\section{appendix section}$/;"	s	chapter:Appendix chapter
+bordernotes	content/10_bordernotes_example.tex	/^\\chapter{bordernotes}$/;"	c
+cc	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://creativecommons.org/ns#
+dc	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://purl.org/dc/elements/1.1/
+defs4445	img/Hochschule_Muenchen_logo.svg	/^     id="defs4445">$/;"	i
+description	content/07_lists_example.tex	/^\\section{description}$/;"	s	chapter:Lists
+enumerate	content/07_lists_example.tex	/^\\section{enumerate}$/;"	s	chapter:Lists
+feColorMatrix4192	img/Hochschule_Muenchen_logo.svg	/^         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.4 0 " \/>$/;"	i
+feGaussianBlur4190	img/Hochschule_Muenchen_logo.svg	/^         result="blur" \/>$/;"	i
+feMerge4196	img/Hochschule_Muenchen_logo.svg	/^         id="feMerge4196">$/;"	i
+feMergeNode4198	img/Hochschule_Muenchen_logo.svg	/^           in="offsetBlur" \/>$/;"	i
+feMergeNode4200	img/Hochschule_Muenchen_logo.svg	/^           in="SourceGraphic" \/>$/;"	i
+feOffset4194	img/Hochschule_Muenchen_logo.svg	/^         result="offsetBlur" \/>$/;"	i
+filter4188	img/Hochschule_Muenchen_logo.svg	/^       id="filter4188">$/;"	d
+filter4188	img/Hochschule_Muenchen_logo.svg	/^       id="filter4188">$/;"	i
+footnote mulitiple use	content/05_footnote_example.tex	/^\\section[footnote mulitiple use]{one footnote for multiple usages}$/;"	s	chapter:Footnote examples
+image wraped with text	content/09_images_example.tex	/^\\section{image wraped with text}$/;"	s	chapter:images
+images	content/09_images_example.tex	/^\\chapter{images}$/;"	c
+inline graphic	content/14_draw_diagrams_example.tex	/^\\section{inline graphic}$/;"	s	chapter:Draw diagrams
+labeling	content/07_lists_example.tex	/^\\section{labeling}$/;"	s	chapter:Lists
+layer1	img/Hochschule_Muenchen_logo.svg	/^     id="layer1">$/;"	i
+linearGradient3766	img/Hochschule_Muenchen_logo.svg	/^       id="linearGradient3766">$/;"	d
+linearGradient3766	img/Hochschule_Muenchen_logo.svg	/^       id="linearGradient3766">$/;"	i
+linearGradient3772	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	d
+linearGradient3772	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	i
+linearGradient4582	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	d
+linearGradient4582	img/Hochschule_Muenchen_logo.svg	/^       gradientTransform="translate(-145.776,417.6)" \/>$/;"	i
+list/Range	content/11_math_example.tex	/^\\section{list\/Range}$/;"	s	chapter:Math
+long smart quote	content/06_quotes_example.tex	/^\\section{long smart quote}$/;"	s	chapter:smart Quote
+long smart quote with author	content/06_quotes_example.tex	/^	\\section{long smart quote with author}$/;"	s	chapter:smart Quote
+main	sourcecode/javaExampleCode/HelloWorld.java	/^	public static void main (String[] args)$/;"	m	class:HelloWorld
+metadata4448	img/Hochschule_Muenchen_logo.svg	/^     id="metadata4448">$/;"	i
+multi footnote	content/05_footnote_example.tex	/^\\section[multi footnote]{multiple footnote}$/;"	s	chapter:Footnote examples
+not so simple	content/14_draw_diagrams_example.tex	/^\\section{not so simple}$/;"	s	chapter:Draw diagrams
+ns29cd9df70101	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/2000/svg
+path3162	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3165	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3167	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3169	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3171	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3173	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3175	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3177	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3179	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3181	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3183	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3185	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3187	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3189	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3191	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3200	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3202	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3204	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3206	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3208	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3210	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#e40000;font-family:Minion Pro;-ink/;"	i
+path3213	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3215	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3217	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3219	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3221	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3223	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3225	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3227	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3229	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3231	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3233	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3235	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3237	img/Hochschule_Muenchen_logo.svg	/^         style="font-variant:normal;font-stretch:normal;fill:#666666;font-family:Minion Pro;-ink/;"	i
+path3240	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3242	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3244	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3246	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3248	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3250	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3252	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3254	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3256	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+path3258	img/Hochschule_Muenchen_logo.svg	/^         style="font-family:Minion Pro;-inkscape-font-specification:Minion Pro" \/>$/;"	i
+rdf	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/1999/02/22-rdf-syntax-ns#
+rect2996	img/Hochschule_Muenchen_logo.svg	/^       style="fill:url(#linearGradient4582);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:/;"	i
+short smart quote	content/06_quotes_example.tex	/^\\section{short smart quote}$/;"	s	chapter:smart Quote
+short title: text example Chapter1	content/04_text_example.tex	/^\\chapter[short title: text example Chapter1]{Text example Chapter1}$/;"	c
+simple	content/14_draw_diagrams_example.tex	/^\\section{simple}$/;"	s	chapter:Draw diagrams
+simple Image placement	content/09_images_example.tex	/^\\section{simple Image placement}$/;"	s	chapter:images
+simple footnote	content/05_footnote_example.tex	/^\\section{simple footnote}$/;"	s	chapter:Footnote examples
+simpletable	content/08_tables_example.tex	/^\\section{simpletable}$/;"	s	chapter:tables/tabluar
+smart Quote	content/06_quotes_example.tex	/^\\chapter[smart Quote]{smart Quotes}$/;"	c
+spacing	content/11_math_example.tex	/^\\section{spacing}$/;"	s	chapter:Math
+stop3768	img/Hochschule_Muenchen_logo.svg	/^         offset="0" \/>$/;"	i
+stop3770	img/Hochschule_Muenchen_logo.svg	/^         offset="1" \/>$/;"	i
+svg	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/2000/svg
+svg4443	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	i
+tables/tabluar	content/08_tables_example.tex	/^\\chapter{tables\/tabluar}$/;"	c
+text5339	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:115.53270721px;font-style:normal;font-weight:normal;line-height:125%;let/;"	i
+text5343	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:71.81745911px;font-style:normal;font-weight:normal;line-height:125%;lett/;"	i
+text5343-7	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:73.12447357px;font-style:normal;font-weight:normal;line-height:125%;lett/;"	i
+text5351	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:154.42764282px;font-style:normal;font-weight:normal;line-height:125%;let/;"	i
+text5351-4	img/Hochschule_Muenchen_logo.svg	/^       style="font-size:181.64437866px;font-style:normal;font-weight:normal;line-height:125%;let/;"	i
+thirdExampleFootnote	content/05_footnote_example.tex	/^Lorem ipsum\\footnote{This footnote has multiple usages\\label{thirdExampleFootnote}} dolor sit\\/;"	l
+xlink	img/Hochschule_Muenchen_logo.svg	/^   id="svg4443">$/;"	n	uri:http://www.w3.org/1999/xlink
