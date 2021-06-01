@@ -17,7 +17,7 @@
 *.cb2
 .*.lb
 .*.pdf
-tags
+*tags
 ## Intermediate documents:
 *.dvi
 *.xdv
