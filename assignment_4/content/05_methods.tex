@@ -1,5 +1,37 @@
 \chapter{Methods}
 \section{Problem 1: Simple network}
+The task of problem 1 is to calculate the output of the given network using matrix operations.
+In order to execute the operations firstly the operation should be defined.
+It can be formulated as $x_j=f(x_{i}*w_{ij})$ with $x_j$ being the output of layer $j$, $x_{i}$ being the output of layer $i$, $w_{ij}$ being the weight matrix for the connections between the layers $i$ and $j$ and $f()$ being the activation function of layer $j$ which in our case is always the sigmoid function.\\
+
+The matrices for the steps are the following:
+\begin{itemize}
+  \item The input vector $x_0=\left[ \begin{array}{rr}
+											0.7 & 0.5  \\ 
+									\end{array}\right]$
+  \item The weight matrix $w_01=\left[ \begin{array}{rr}
+  											1 & 0 \\
+											0 & 1  \\ 
+									\end{array}\right]$
+\item The weight matrix $w_12=\left[ \begin{array}{rrr}
+  											0.9 & 0.3 & 0.9\\
+											0.1 & 0.2 & 0.4\\				 
+									\end{array}\right]$
+									\item The weight matrix $w_23=\left[ \begin{array}{rrr}
+  											0.1 & 0.8 & 0.4\\
+											0.5 & 0.1 & 0.6\\
+											0.6 & 0.7 & 0.3\\
+															 
+									\end{array}\right]$
+\item The weight matrix $w_34=\left[ \begin{array}{rrr}
+  											0.5 & 0.7 & 0.3\\													 
+									\end{array}\right]$
+\end{itemize}
+
+The final equation can be summarized as:\\
+$\;\;\;\;\;f(\,f\,(\,f(\,f(x_0*w_01)*w_12)*w_23)*w_34$
+   
 \section{Problem 2: Backpropagation}
+
 \section{Problem 3: Artificial neural network}
 \section{Problem 4: Gradient Descent}
