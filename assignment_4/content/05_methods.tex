@@ -3,3 +3,117 @@
 \section{Problem 2: Backpropagation}
 \section{Problem 3: Artificial neural network}
 \section{Problem 4: Gradient Descent}
+
+There are multiple versions of the gradient descent.
+They are based on the normal gradient descent.
+
+\subsection{Normal Gradient Descent}
+
+Gradient Descent is one optimizer to find better weights in the model.
+It is based on the loss function $J$ which represents the classification error and the gradients to give the direction to minimize the loss.
+These gradients are calculated by back propagation.
+There is also the learning rate $\lambda$ which controls the size of each step in one direction.
+With a low learning rate comes high computation times but a to high learning rate can lead to a miss calculation of the minimum.
+
+The normal gradient descent is based on the complete training set and has hight costs with big data sets.
+The height costs are effected by only taking a single step for one pass.
+
+In short the algorithm of the normal gradient descent is as follows:
+
+\begin{itemize}
+	\item For each epoch:
+	\begin{itemize}
+		\item For each weight $j$:
+		\begin{itemize}
+            \item $w_j = w_{j-1} + \delta{w_j}$
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\subsection{Stochastic Gradient Descent}
+
+This can be optimized by using the \ac{SGD} where the weights are updated after each training sample.
+The stochastic approximation of the true cost gradient results in a zig-zag path.
+This only works fine with a convex cost function.
+
+The extension provided by \ac{SGD} leads to the following algorithm:
+
+\begin{itemize}
+	\item For each epoch:
+	\begin{itemize}
+        \item{For each training sample}
+            \begin{itemize}
+            \item For each weight $j$:
+            \begin{itemize}
+                \item $w_j = w_{j-1} + \delta{w_j}$
+            \end{itemize}
+        \end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\subsection{Gradient Descent with momentum}
+
+The idea behind this extension is to move only for the average of the gradients.
+This prevent a possible oscillation and speeds up the optimization significantly.
+
+In comparison to the normal gradient descent ($w_t = w_{t-1} - \alpha g_{t-1}$) the weight looks like $w_t = w_{t-1} - \alpha v_t$ with $v_t = \beta v_{t-1} - (1 -\beta)g_{t-1}$ and $\beta = 0.9$.
+
+\subsection{RMSProp}
+
+Another idea is to make the step size inversively proportional to the magnitude of the gradient which is called the \ac{RMSProp}.
+Doing this it is necessary to introduce a new variable $s$ which is the moving average of squared gradients.
+
+\begin{equation}\label{RMS1}
+    s_t = \beta s_{t-1} + (1 - \beta)g^2_{t-1}
+\end{equation}
+
+With the weight:
+
+\begin{equation}\label{RMS2}
+    w_t = w_{t-1} - \alpha \frac{g_{t-1}}{\sqrt{s_t}+\varepsilon}
+\end{equation}
+
+\subsection{Adaptive moment estimation}
+
+The combination of \ac{RMSProp} and Gradient descent with momentum is called \ac{ADAM}.
+
+The equations are:
+
+
+\begin{equation}\label{ADAM1}
+    v_t = \frac{\beta_1 v_{t-1} - (1 - \beta_1)g_{t-1}}{1 - \beta^t_1}
+\end{equation}
+
+\begin{equation}\label{ADAM2}
+    s_t = \frac{\beta_2 s_{t-1} + (1 - \beta_2)g^2_{t-1}}{1 - \beta^t_2}
+\end{equation}
+
+\begin{equation}\label{RMS2}
+    w_t = w_{t-1} - \alpha \frac{v_t}{\sqrt{s_t}+\varepsilon}
+\end{equation}
+
+With $\beta_1 = 0.9; \beta_2 = 0.999; \varepsilon = 10^{-8}; \alpha $ to be tuned.
+
+Since the data points should all satisfy the equation $y = mx + c$ in this assignment the gradients for $m$ and $c$ are calculated with the following equations.
+
+\begin{equation}\label{gradients1}
+    \frac{\partial l}{\partial m} = -2 \sum\limits_{i=1}^n x_i (y_i - mx_i - c)
+\end{equation}
+
+\begin{equation}\label{gradients2}
+    \frac{\partial l}{\partial c} = -2 \sum\limits_{i=1}^n (y_i - mx_i - c)
+\end{equation}
+
+And the weights are calculated with
+
+\begin{equation}\label{gradients2}
+    m_k = m_{k-1} - \lambda \frac{\partial l}{\partial m}
+\end{equation}
+
+\begin{equation}\label{gradients2}
+    c_k = c_{k-1} - \lambda \frac{\partial l}{\partial c}
+\end{equation}
+
+With $\lambda$ used as learning parameter.
+
+
