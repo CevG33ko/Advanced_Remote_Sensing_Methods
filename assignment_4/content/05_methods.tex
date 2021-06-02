@@ -2,36 +2,11 @@
 \section{Problem 1: Simple network}
 The task of problem 1 is to calculate the output of the given network using matrix operations.
 In order to execute the operations firstly the operation should be defined.
-It can be formulated as $x_j=f(x_{i}*w_{ij})$ with $x_j$ being the output of layer $j$, $x_{i}$ being the output of layer $i$, $w_{ij}$ being the weight matrix for the connections between the layers $i$ and $j$ and $f()$ being the activation function of layer $j$ which in our case is always the sigmoid function.\\
+It can be formulated as $x_j=f(x_{i}*w_{ij})$ with $x_j$ being the output of layer $j$, $x_{i}$ being the output of layer $i$, $w_{ij}$ being the weight matrix for the connections between the layers $i$ and $j$ and $f()$ being the activation function of layer $j$ which in our case is the sigmoid function.\\
 
-The matrices for the steps are the following:
-\begin{itemize}
-  \item The input vector $x_0=\left[ \begin{array}{rr}
-											0.7 & 0.5  \\ 
-									\end{array}\right]$
-  \item The weight matrix $w_01=\left[ \begin{array}{rr}
-  											1 & 0 \\
-											0 & 1  \\ 
-									\end{array}\right]$
-\item The weight matrix $w_12=\left[ \begin{array}{rrr}
-  											0.9 & 0.3 & 0.9\\
-											0.1 & 0.2 & 0.4\\				 
-									\end{array}\right]$
-									\item The weight matrix $w_23=\left[ \begin{array}{rrr}
-  											0.1 & 0.8 & 0.4\\
-											0.5 & 0.1 & 0.6\\
-											0.6 & 0.7 & 0.3\\
-															 
-									\end{array}\right]$
-\item The weight matrix $w_34=\left[ \begin{array}{rrr}
-  											0.5 & 0.7 & 0.3\\													 
-									\end{array}\right]$
-\end{itemize}
-
-The final equation can be summarized as:\\
-$\;\;\;\;\;f(\,f\,(\,f(\,f(x_0*w_01)*w_12)*w_23)*w_34$
    
 \section{Problem 2: Backpropagation}
-
+The task of problem 1 is to calculate the back propagation of the given network (section 1.2) for two different cost functions. This is done by first finding the gradient using the partial derivatives of the forward propagation function, taking advantage of the chain rule this can be done layer by layer from end to beginning. This is use to determine the influence of each single weight and bias to the final error, which are updated accordingly to minimize the error.
 \section{Problem 3: Artificial neural network}
+In problem 3 both of the tasks are combined and put to use for the training of a simple neural network with the help of the Pytorch library. The best suiting combination of network architecture and hyperparameters have to be found empirically by making assumptions and testing them by comparing the results of the different tests.
 \section{Problem 4: Gradient Descent}
