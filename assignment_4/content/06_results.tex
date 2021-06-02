@@ -66,6 +66,19 @@ This results in the following weights (assuming a learning rate of $1$):
 \item $b = b - \frac {\partial cost}{\partial b}=2.000317685142451$
 \end{itemize}
 \section{Problem 3: Artificial neural network}
+For Problem three we defined a neural network with only one hidden layer, consisting of 11 neurons. It was trained for 10 thousand epochs with the following parameters:
+\begin{itemize}
+\item $batchsize = 8000$
+\item $learning rate = 1$
+\end{itemize}
+The training curve gives the following results:
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=12cm]{img/problem3_curves.png}
+	\caption{Training curves for problem 3}
+    \label{problem4_imput_data}
+\end{figure}
+Unfortunately the testing did not work from scratch and we were not able to fix the Issue: ('CUDA error: an illegal memory access was encountered',)
 
 \section{Problem 4: Gradient Descent}
 
