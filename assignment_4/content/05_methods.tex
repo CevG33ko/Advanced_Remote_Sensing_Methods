@@ -1,7 +1,15 @@
 \chapter{Methods}
 \section{Problem 1: Simple network}
+The task of problem 1 is to calculate the output of the given network using matrix operations.
+In order to execute the operations firstly the operation should be defined.
+It can be formulated as $x_j=f(x_{i}*w_{ij})$ with $x_j$ being the output of layer $j$, $x_{i}$ being the output of layer $i$, $w_{ij}$ being the weight matrix for the connections between the layers $i$ and $j$ and $f()$ being the activation function of layer $j$ which in our case is the sigmoid function.\\
+
+   
 \section{Problem 2: Backpropagation}
+The task of problem 1 is to calculate the back propagation of the given network (section 1.2) for two different cost functions. This is done by first finding the gradient using the partial derivatives of the forward propagation function, taking advantage of the chain rule this can be done layer by layer from end to beginning. This is use to determine the influence of each single weight and bias to the final error, which are updated accordingly to minimize the error.
 \section{Problem 3: Artificial neural network}
+
+In problem 3 both of the tasks are combined and put to use for the training of a simple neural network with the help of the Pytorch library. The best suiting combination of network architecture and hyperparameters have to be found empirically by making assumptions and testing them by comparing the results of the different tests.
 \section{Problem 4: Gradient Descent}\label{ch:methods:sec:4}
 
 There are multiple versions of the gradient descent.
@@ -115,4 +123,6 @@ And the weights are calculated with
 \end{equation}
 
 With $\lambda$ used as learning parameter.
+
+
 
