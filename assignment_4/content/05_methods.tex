@@ -112,7 +112,13 @@ Since the data points should all satisfy the equation $y = mx + c$ in this assig
     \frac{\partial l}{\partial c} = -2 \sum\limits_{i=1}^n (y_i - mx_i - c)
 \end{equation}
 
-And the weights are calculated with
+Where the residuals are calculated with
+
+\begin{equation}\label{gradients2}
+    e_i = y_i - mx_i - c
+\end{equation}
+
+And the loss is calculated with
 
 \begin{equation}\label{gradients2}
     m_k = m_{k-1} - \lambda \frac{\partial l}{\partial m}
